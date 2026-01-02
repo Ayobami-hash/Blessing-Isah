@@ -165,9 +165,9 @@ export default function App() {
       </nav>
 
       {/* Hero Section */}
-      <section id="home" className="relative min-h-screen bg-gradient-to-br from-gray-200 to-gray-300 overflow-hidden">
+      <section id="home" className="relative min-h-screen bg-gradient-to-br from-gray-200 to-gray-300">
         {/* Rotated Black Rectangle Background */}
-        <div className="absolute top-[-10%] right-[-20%] w-[1200px] h-[1400px] bg-black rotate-[10deg]" />
+        <div className="absolute top-[-10%] right-[-15%] w-[1000px] h-[1200px] bg-black rotate-[10deg] pointer-events-none" />
         
         <div className="container mx-auto px-4 pt-32 pb-20 relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
