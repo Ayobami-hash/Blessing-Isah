@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import svgPaths from "./imports/svg-n0tmhwffvo";
+import imgBlessingProfile from "./assets/blessing-isah-profile.png";
 import imgImage17 from "figma:asset/ff90103dbcd4d855294602cde88bc3407371f5e0.png";
 import imgGitIcon from "figma:asset/ff00c08760983e0e037aaf6ab4e004f4d147276a.png";
 import imgImage18 from "figma:asset/5408fc9b192b9d9de925e2e534ab527f45c9240f.png";
@@ -207,18 +208,12 @@ export default function App() {
 
             {/* Right Column - Image */}
             <div className="relative">
-              <div className="w-full max-w-[600px] h-[700px] bg-gray-300 rounded-lg shadow-2xl flex items-center justify-center border-4 border-dashed border-gray-400">
-                <div className="text-center p-8">
-                  <svg className="w-32 h-32 mx-auto mb-4 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                  </svg>
-                  <p className="text-gray-600 font-['Montserrat'] font-semibold text-lg">
-                    Your Image Here
-                  </p>
-                  <p className="text-gray-500 text-sm mt-2">
-                    600 x 700 recommended
-                  </p>
-                </div>
+              <div className="w-full max-w-[600px] h-[700px] bg-gray-300 rounded-lg shadow-2xl overflow-hidden">
+                <img 
+                  src={imgBlessingProfile} 
+                  alt="Blessing Isah" 
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </div>
