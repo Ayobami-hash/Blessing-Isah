@@ -173,8 +173,8 @@ export default function App() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Column - Text */}
             <div className="text-left space-y-6">
-              <p className="font-['Raleway'] font-bold text-[40px] text-black">Hi, I am</p>
-              <h1 className="font-['Raleway'] font-bold text-[80px] leading-tight text-black">
+              <p className="font-['Raleway'] font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-black">Hi, I am</p>
+              <h1 className="font-['Raleway'] font-bold text-5xl sm:text-6xl md:text-7xl lg:text-8xl leading-tight text-black">
                 Blessing Isah
               </h1>
               <p className="font-['Raleway'] font-extrabold text-[25px] text-gray-600">
