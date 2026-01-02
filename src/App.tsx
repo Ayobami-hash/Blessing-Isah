@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import svgPaths from "./imports/svg-n0tmhwffvo";
-import imgBlessingProfile from "./assets/blessing-isah-profile.png";
+import imgBlessingProfile from "./assets/blessing isah image.jpeg";
 import imgImage17 from "figma:asset/ff90103dbcd4d855294602cde88bc3407371f5e0.png";
 import imgGitIcon from "figma:asset/ff00c08760983e0e037aaf6ab4e004f4d147276a.png";
 import imgImage18 from "figma:asset/5408fc9b192b9d9de925e2e534ab527f45c9240f.png";
