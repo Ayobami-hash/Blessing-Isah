@@ -280,7 +280,19 @@ My services are particularly valuable for businesses and professionals seeking r
             </div>
             
             <p className="font-['Open_Sans'] text-[15px] text-black text-center max-w-[763px] mx-auto mb-12">
-              Nulla in velit a metus rhoncus tempus. Nulla congue nulla vel sem varius finibus. Sed ornare sit amet lorem sed viverra. In vel urna quis libero viverra facilisis ut ac est.
+              **About Me**
+
+I'm Blessing Isah, a highly organized and tech-savvy Virtual Assistant dedicated to helping businesses and professionals streamline their operations and boost productivity. With a strong foundation in administrative support, communication, and digital tools, I specialize in taking the burden of daily tasks off your plate so you can focus on what matters most—growing your business.
+
+My journey into virtual assistance began with comprehensive training at Skills Bridge, and I've since honed my skills working remotely with Pirrkeens Consult, where I manage everything from scheduling and email organization to content creation and online teaching. My background in sales management has given me a deep understanding of customer relations and the importance of delivering exceptional service.
+
+I'm passionate about leveraging modern technology to create efficient workflows. Whether it's designing eye-catching flyers on Canva, conducting in-depth research, managing your calendar, or handling data entry, I approach every task with attention to detail and a commitment to excellence.
+
+What sets me apart is my ability to adapt quickly, solve problems proactively, and maintain strong communication throughout every project. I believe in building lasting relationships with my clients by being reliable, responsive, and results-driven.
+
+Currently pursuing my B.Sc. in Science Laboratory Technology at the University of Benin, I balance my academic pursuits with my passion for providing top-notch virtual support. I'm always eager to learn new tools and techniques that can add more value to the services I offer.
+
+Let's work together to make your business run smoother and more efficiently!
             </p>
 
             <div className="w-[170px] h-[12px] bg-black mx-auto mb-12" />
