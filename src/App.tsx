@@ -498,7 +498,24 @@ Let's work together to make your business run smoother and more efficiently!
             </div>
 
             <p className="font-['Open_Sans'] text-[15px] text-black text-center mb-12">
-              Nulla in velit a metus rhoncus tempus. Nulla congue nulla vel sem varius finibus. Sed ornare sit amet lorem sed viverra. In vel urna quis libero viverra facilisis ut ac est.
+              I'm always excited to connect with new clients and discuss how I can support your business needs. Whether you have a project in mind, need ongoing virtual assistance, or simply want to learn more about my services, I'd love to hear from you!
+
+              Get In Touch:
+📧 Email:blessingisah2209@gmail.com
+
+📱 Phone: +234 901 901 9823
+
+Let's Connect:
+
+Feel free to reach out via email or give me a call. I typically respond to inquiries within 24 hours and I'm happy to schedule a free consultation to discuss your specific needs and how I can help streamline your operations.
+
+Available For:
+- One-time projects
+- Ongoing virtual assistant support
+- Contract-based work
+- Remote collaboration
+
+I look forward to the opportunity to work with you and help take your business to the next level!
             </p>
 
             <form onSubmit={handleSubmit} className="space-y-8">
