@@ -242,10 +242,24 @@ export default function App() {
             </div>
 
             <h2 className="font-['Montserrat'] font-bold text-[30px] text-white tracking-[5.5px] mb-6">
-              IT BERRIES
+              VIRTUAL ASSISTANT SERVICES
             </h2>
             <p className="font-['Open_Sans'] text-[15px] text-white text-justify max-w-[1148px] leading-relaxed mb-8">
-              Nulla in velit a metus rhoncus tempus. Nulla congue nulla vel sem varius finibus. Sed ornare sit amet lorem sed viverra. In vel urna quis libero viverra facilisis ut ac est. Morbi commodo, eros in dignissim tempus, lacus odio rutrum augue, in semper sem magna quis tellus. Etiam enim erat, suscipit eu semper a, dictum sit amet elit. Nunc egestas nisi eget enim gravida facilisis. Pellentesque laoreet varius turpis vel pharetra. Ut ante justo, consequat vitae elementum tempor, accumsan nec eros.
+              Based on my resume, here's a summary of the services I provide:
+
+I offer comprehensive virtual assistant services focused on administrative support and digital productivity. My core services include:
+
+Administrative & Communication Support: I manage email organization, schedule and coordinate meetings, maintain records, and handle client communications. I'm proficient with tools like Google Workspace, Zoom, and Google Meet to facilitate seamless remote collaboration.
+
+Content Creation & Design: I create marketing materials such as flyers using Canva and produce video content through CapCut. I also manage social media presence, particularly on Instagram.
+
+Research & Data Management: I conduct research projects, perform data entry tasks, and handle document conversion and management using Excel and Google Sheets.
+
+Educational Support: I deliver online teaching sessions, combining my technical skills with instructional capabilities.
+
+Customer Relations: Drawing from my sales management background, I provide customer support, handle inquiries, and process orders efficiently.
+
+My services are particularly valuable for businesses and professionals seeking remote support to streamline operations, enhance productivity, and maintain organized workflows. I leverage modern digital tools and platforms to deliver efficient, tech-enabled assistance across various business functions.
             </p>
             <button className="font-['Montserrat'] font-semibold text-[15px] text-white hover:text-gray-300 transition-colors flex items-center gap-2">
               READ MORE
