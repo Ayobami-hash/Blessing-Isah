@@ -1,18 +1,18 @@
 import { useState, useEffect } from 'react';
 import svgPaths from "./imports/svg-n0tmhwffvo";
-import image from "../assets/blessing-isah-image.jpeg"
-import imgImage17 from "figma:asset/ff90103dbcd4d855294602cde88bc3407371f5e0.png";
-import imgGitIcon from "figma:asset/ff00c08760983e0e037aaf6ab4e004f4d147276a.png";
-import imgImage18 from "figma:asset/5408fc9b192b9d9de925e2e534ab527f45c9240f.png";
-import imgImage19 from "figma:asset/840296fac39cabf8cd0e45c5d21e9e49f444067f.png";
-import imgImage20 from "figma:asset/62ee2924b8a3437b0a5f8c51f55ddb0ad204c631.png";
-import imgImage21 from "figma:asset/348780418fb3df8c102fbeb4a112cda82b96502b.png";
-import imgProject from "figma:asset/b94d335a046e5369005ac18361ab9b5210acd780.png";
-import imgProject1 from "figma:asset/2607de40f99a1e1e1db55c7901116b1422152deb.png";
-import imgRectangle17 from "figma:asset/6d993f37bde04f4d87234d7b9ba6e69fd20c3765.png";
-import imgImage12 from "figma:asset/c1c55d921f5a03b3143311f18310baf8a186dbec.png";
+import image from "./assets/blessing-isah-image.jpeg"
+import imgImage17 from "./assets/ff90103dbcd4d855294602cde88bc3407371f5e0.png";
+import imgGitIcon from "./assets/ff00c08760983e0e037aaf6ab4e004f4d147276a.png";
+import imgImage18 from "./assets/5408fc9b192b9d9de925e2e534ab527f45c9240f.png";
+import imgImage19 from "./assets/840296fac39cabf8cd0e45c5d21e9e49f444067f.png";
+import imgImage20 from "./assets/62ee2924b8a3437b0a5f8c51f55ddb0ad204c631.png";
+import imgImage21 from "./assets/348780418fb3df8c102fbeb4a112cda82b96502b.png";
+import imgProject from "./assets/b94d335a046e5369005ac18361ab9b5210acd780.png";
+import imgProject1 from "./assets/2607de40f99a1e1e1db55c7901116b1422152deb.png";
+import imgRectangle17 from "./assets/6d993f37bde04f4d87234d7b9ba6e69fd20c3765.png";
+import imgImage12 from "./assets/c1c55d921f5a03b3143311f18310baf8a186dbec.png";
 
-function Logo() {
+const Logo =() => {
   return (
     <div className="size-[50px]">
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 57.3347 50">
@@ -184,17 +184,26 @@ export default function App() {
               
               {/* Social Icons */}
               <div className="flex gap-6 mt-8">
-                <button className="bg-gray-400 hover:bg-gray-500 transition-colors size-[56px] shadow-lg flex items-center justify-center">
+                <button 
+                    className="bg-gray-400 hover:bg-gray-500 transition-colors size-[56px] shadow-lg flex items-center justify-center"
+                    title='social-1'
+                >
                   <svg className="size-[35px]" fill="black" viewBox="0 0 35 34">
                     <path d={svgPaths.p3d208300} />
                   </svg>
                 </button>
-                <button className="bg-gray-400 hover:bg-gray-500 transition-colors size-[56px] shadow-lg flex items-center justify-center">
+                <button 
+                  className="bg-gray-400 hover:bg-gray-500 transition-colors size-[56px] shadow-lg flex items-center justify-center"
+                  title='social-2'
+                >
                   <svg className="size-[37px]" fill="black" viewBox="0 0 37 35.5">
                     <path d={svgPaths.p37b6c00} />
                   </svg>
                 </button>
-                <button className="bg-gray-400 hover:bg-gray-500 transition-colors size-[56px] shadow-lg flex items-center justify-center">
+                <button 
+                  className="bg-gray-400 hover:bg-gray-500 transition-colors size-[56px] shadow-lg flex items-center justify-center"
+                  title='social-3'
+                >
                   <svg className="size-[35px]" fill="black" viewBox="0 0 35 34">
                     <path d={svgPaths.pc875180} />
                   </svg>
@@ -210,7 +219,7 @@ export default function App() {
             <div className="relative">
               <div className="w-full max-w-[600px] h-[700px] bg-gray-300 rounded-lg shadow-2xl overflow-hidden">
                 <img 
-                  src={imgBlessingProfile} 
+                  src={image} 
                   alt="Blessing Isah" 
                   className="w-full h-full object-cover"
                 />
@@ -478,6 +487,7 @@ export default function App() {
                   name="name"
                   value={formData.name}
                   onChange={handleChange}
+                  title='name'
                   required
                   className="w-full border-b-[5px] border-black bg-transparent py-3 focus:outline-none focus:border-gray-700 transition-colors"
                 />
@@ -490,6 +500,7 @@ export default function App() {
                 <input
                   type="email"
                   name="email"
+                  title='email'
                   value={formData.email}
                   onChange={handleChange}
                   required
@@ -504,6 +515,7 @@ export default function App() {
                 <input
                   type="tel"
                   name="phone"
+                  title='phone'
                   value={formData.phone}
                   onChange={handleChange}
                   className="w-full border-b-[5px] border-black bg-transparent py-3 focus:outline-none focus:border-gray-700 transition-colors"
@@ -518,6 +530,7 @@ export default function App() {
                   name="message"
                   value={formData.message}
                   onChange={handleChange}
+                  title='message'
                   required
                   rows={5}
                   className="w-full border-b-[5px] border-black bg-transparent py-3 focus:outline-none focus:border-gray-700 transition-colors resize-none"
@@ -557,22 +570,31 @@ export default function App() {
 
             {/* Social Icons */}
             <div className="flex justify-center gap-8">
-              <button className="hover:scale-110 transition-transform">
+              <button 
+                className="hover:scale-110 transition-transform"
+                title='social-1'
+              >
                 <svg className="size-[30px]" fill="white" fillOpacity="0.9" viewBox="0 0 30 30">
                   <path d={svgPaths.p7492e00} />
                 </svg>
               </button>
-              <button className="hover:scale-110 transition-transform">
+              <button 
+                className="hover:scale-110 transition-transform"
+                title='social-2'
+              >
                 <svg className="size-[30px]" fill="white" fillOpacity="0.9" viewBox="0 0 30 30">
                   <path d={svgPaths.p212c1ec0} />
                 </svg>
               </button>
-              <button className="hover:scale-110 transition-transform">
+              <button 
+                className="hover:scale-110 transition-transform"
+                title='social-3'
+              >
                 <svg className="size-[30px]" fill="white" fillOpacity="0.9" viewBox="0 0 30 30">
                   <path d={svgPaths.p148f00} />
                 </svg>
               </button>
-              <button className="hover:scale-110 transition-transform">
+              <button className="hover:scale-110 transition-transform" title='social-4'>
                 <svg className="size-[30px]" fill="white" viewBox="0 0 30 28">
                   <path d={svgPaths.p31377c00} />
                 </svg>
