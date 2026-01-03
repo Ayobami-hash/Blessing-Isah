@@ -210,9 +210,7 @@ export default function App() {
                 </button>
               </div>
               
-              <p className="text-[15px] text-black mt-4 max-w-md">
-                this is not my photo, but I dearly hope to get one just like this
-              </p>
+              
             </div>
 
             {/* Right Column - Image */}
